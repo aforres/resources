@@ -1,8 +1,8 @@
 #pubrdy2ST.py ver 001 20240807
 import streamlit as st
 i = open('publishready.txt','r')
-i.encode('ascii', 'ignore')
-l = i.readlines()
+#i.encode('ascii', 'ignore')
+l = str(i.readlines())
 
 #str = unicode(str, errors='ignore')
 i.close()
