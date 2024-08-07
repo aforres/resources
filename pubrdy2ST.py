@@ -1,6 +1,6 @@
 #pubrdy2ST.py ver 001 20240807
 import streamlit as st
-i = open('publishready.txt','rb')
+i = open('publishready.txt','r')
 l = str(i.readlines())
 i.close()
 
