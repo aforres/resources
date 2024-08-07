@@ -2,6 +2,7 @@
 import streamlit as st
 i = open('publishready.txt','r')
 l = i.readlines()
+i.close()
 
 for x in range(len(l)):
     if l[x][0:4] == '!STD':
@@ -36,4 +37,4 @@ for x in range(len(l)):
         st.divider()
         #o.close()
             
-i.close()            
+           
