@@ -1,12 +1,7 @@
 #pubrdy2ST.py ver 001 20240807
 import streamlit as st
 i = open('publishready.txt','rb')
-decoded_string = i.decode("utf-8")
-#i.decode("ascii")
-#i.encode('ascii', 'ignore')
-l = str(decoded_string.readlines())
-
-#str = unicode(str, errors='ignore')
+l = str(i.readlines())
 i.close()
 
 for x in range(len(l)):
