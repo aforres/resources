@@ -1,7 +1,7 @@
 #pubrdy2ST.py ver 001 20240807
 import streamlit as st
 i = open('20240807.txt','r')
-l = str(i.readlines())
+l = i.readlines()
 i.close()
 
 for x in range(len(l)):
